@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04AB22682CDEB6FF00B36BE3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB22672CDEB6FC00B36BE3 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		048A88F12CD99D060078A1A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		048A88E02CD99D020078A1A0 /* CDCMediaViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDCMediaViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048A88F02CD99D060078A1A0 /* CDCMediaViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDCMediaViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048A88FA2CD99D060078A1A0 /* CDCMediaViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDCMediaViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AB22672CDEB6FC00B36BE3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04D9F81F2CDD44F1004D0FDA /* Exceptions for "CDCMediaViewer" folder in "CDCMediaViewer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 048A88DF2CD99D020078A1A0 /* CDCMediaViewer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		048A88E22CD99D020078A1A0 /* CDCMediaViewer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04D9F81F2CDD44F1004D0FDA /* Exceptions for "CDCMediaViewer" folder in "CDCMediaViewer" target */,
+			);
 			path = CDCMediaViewer;
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,7 @@
 		048A88D72CD99D020078A1A0 = {
 			isa = PBXGroup;
 			children = (
+				04AB22672CDEB6FC00B36BE3 /* NetworkManager.swift */,
 				048A88E22CD99D020078A1A0 /* CDCMediaViewer */,
 				048A88F32CD99D060078A1A0 /* CDCMediaViewerTests */,
 				048A88FD2CD99D060078A1A0 /* CDCMediaViewerUITests */,
@@ -236,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AB22682CDEB6FF00B36BE3 /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +418,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CDCMediaViewer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CDCMediaViewer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +448,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CDCMediaViewer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CDCMediaViewer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
